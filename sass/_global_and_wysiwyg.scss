@@ -1,0 +1,38 @@
+// Styles that apply globally and in the wysiwyg editor go here
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,300,400,600);
+
+body, input {
+  font-family: 'Open Sans',Ariel,sans-serif;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300;
+}
+h1, h2 {
+  @include adjust-font-size-to(48px);
+}
+h3 {
+  @include adjust-font-size-to(24px);
+  font-weight: 600;
+}
+h4 {
+  @include adjust-font-size-to(24px);
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+// CKEditor - adjust the headings so the fit the dropdown
+.cke_panel_list h1, .cke_panel_list h2 {
+  @include adjust-font-size-to(24px);
+  text-transform: uppercase;
+  text-align: left;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+
+p {
+  padding-bottom: 1em;
+}

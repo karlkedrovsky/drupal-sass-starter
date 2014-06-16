@@ -1,0 +1,17 @@
+name = Drupal Sass Starter Theme
+description = Custom starter theme
+version = 1.0
+core = 7.x
+
+stylesheets[all][] = css/style.css
+
+scripts[] = js/vendor/modernizr-2.6.2.min.js
+scripts[] = js/main.js
+
+regions[header] = Header
+regions[highlighted] = Highlighted
+regions[help] = Help
+regions[content] = Content
+regions[sidebar_first] = Sidebar First
+regions[sidebar_second] = Sidebar Second
+regions[footer] = Footer
