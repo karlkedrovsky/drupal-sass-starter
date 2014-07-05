@@ -1,5 +1,5 @@
 guard :compass do
-  watch(%r{sass\.scss$})
+  watch(%r{sass/.+\.scss$})
 end
 
 guard 'livereload', host: '127.0.0.1', port: '35729' do
