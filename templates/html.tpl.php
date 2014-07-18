@@ -3,6 +3,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <?php print $head; ?>
   <title><?php print $head_title; ?></title>
   <link rel="shortcut icon" href="<?php print $directory; ?>/images/favicon.ico">

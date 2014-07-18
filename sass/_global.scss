@@ -1,1 +1,5 @@
 // Styles that apply globally but NOT to the wysiwyg editor go here
+
+aside, header, footer, nav {
+  @include clearfix;
+}
